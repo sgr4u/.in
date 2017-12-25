@@ -11,9 +11,6 @@ fclose($handle);
 
 
 <html>
-<head>
-<title>comments</title>
-</head>
 <Body bgcolor="sky blue">
   <form action= "" method = "POST">
     Comments: <textarea rows="10" cols="30" name="commentContent"></textarea><br/>
