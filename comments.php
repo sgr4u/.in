@@ -18,6 +18,6 @@ fclose($handle);
 <input type="submit" value="post!"><br/>
 
  </form>
-<?php include "comments.html";?>
+<?php include "comments.php";?>
 </body>
 </html>
