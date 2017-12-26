@@ -3,7 +3,7 @@ if($_POST){
 $name=$_POST['name'];
 $comment=$_POST['comment'];
 $handle=fopen("content.php", "a");
-fwrite($handle,"<b/>" . $name . "</b>:<br/>" . $comment . "<br/>");
+fwrite($handle,"<b><i>" . $name . "</b><i> :said" . $comment . "<br/><br/>");
 fclose($handle);
 
 }
@@ -22,6 +22,9 @@ fclose($handle);
 <input type="submit" value="post comment"><br/>
 
  </form>
-<?php include "content.php";?>
+
+  <?php
+include "content.php";
+?>
 </body>
 </html>
