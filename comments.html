@@ -3,7 +3,7 @@ if($_POST){
 $name=$_POST['name'];
 $comment=$_POST['comment'];
 $handle=fopen("content.php", "a");
-fwrite($handle,"<b/>" . $name . "</b>:<br/>" . $comment . "<br/>";
+fwrite($handle,"<b/>" . $name . "</b>:<br/>" . $comment . "<br/>");
 fclose($handle);
 
 }
