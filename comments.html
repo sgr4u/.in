@@ -1,7 +1,7 @@
 <?php
 if($_POST{
 $name=$_POST['name'];
-$content=$_POST[commentContent];
+$comment=$_POST['comment'];
 $handle=fopen("content.php","a");
 fwrite($handle,"<b/>". $name ."</b>:<br/>" . $content ."<br/>";
 fclose($handle);
