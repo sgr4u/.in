@@ -1,9 +1,9 @@
 <?php
 if($_POST){
-$name=$_POST['name'];
-$comment=$_POST['comment'];
-$handle=fopen("content.php", "a");
-fwrite($handle,"<b><i>" . $name . "</b><i> :said" . $comment . "<br/><br/>");
+$name= $_POST['name'];
+$comment= $_POST['comment'];
+$handle= fopen("content.php", "a");
+fwrite($handle, "<b><i>" . $name . "</b></i> :said" . $comment . "<br/><br/>");
 fclose($handle);
 
 }
